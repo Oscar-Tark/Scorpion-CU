@@ -1,0 +1,435 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #1c1c1c;
+	transition: .1s all linear;
+	word-wrap: break-word;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.menu
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	height: 30px;
+	background-color: #262626;
+	color: rgb(240,240,240);
+}
+
+.submenu
+{
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	height: 15px;
+	background-color: #262626;
+	border-bottom: 2px dashed rgb(41, 112, 217);
+}
+
+.submenubutton, .bottombannerbutton
+{
+	font-size: 14px;
+	color: inherit;
+}
+
+.submenubutton:hover
+{
+	font-size: 14px;
+	height: 15px;
+	color: white;
+	background-color: rgb(37,37,37);
+}
+
+.menutitle
+{
+	height: 100%;
+	font-size: 22px;
+	float: left;
+	margin-left: 5px;
+}
+
+.submenutitle
+{
+	height: 100%;
+	font-size: 12px;
+	float: left;
+	margin-left: 10px;
+	font-style: italic;
+}
+
+/*button
+{
+	height: 30px;
+	color: rgb(240,240,240);
+	border: 0px solid rgb(7, 71, 166);
+	background-color: inherit;
+	transition: .1s linear all;
+	font-size: 16px;
+}
+
+button:hover
+{
+	background-color: rgb(27, 101, 167);
+}*/
+
+.mainsummarytext
+{
+	text-align: left;
+	width: 70%;
+	font-size: 14px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	/*border-top: 2px solid rgb(220, 220, 220);
+	background-color: rgb(250, 250, 250);*/
+	background-color: aliceblue;
+	border-top: 3px solid rgb(7, 71, 166);
+	padding: 5px;
+	height: auto;
+	transition: inherit;
+}
+
+.mainsummarytext:hover
+{
+	background-color: rgb(255, 255, 255);
+}
+
+p::first-letter
+{
+  font-size: 200%;
+  font-variant: small-caps;
+}
+
+p
+{
+	padding: 5px;
+	text-align: left;
+}
+
+a:link
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:active
+{
+    text-decoration: none;
+    color: red;
+}
+
+a:visited
+{
+	text-decoration: none;
+	color:gray;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.menuitems
+{
+	float: right;
+	right: 0;
+	color: white;
+	font-size: 16px;
+}
+
+.topbanner
+{
+	height: 50px;
+	width: 100%;
+}
+
+.bottombanner
+{
+	bottom: 0;
+	position: fixed;
+	padding: 5px;
+	width: 100%;
+	height: 30px;
+	background-color: rgb(255,255,255);
+	color: rgb(37,37,37);
+	border-top: 1px solid rgb(220, 220, 220);
+	z-index: 1;
+}
+
+.bottombannerbutton:hover
+{
+	font-size: 14px;
+	background-color: inherit;
+	text-decoration: underline;
+}
+
+.topbannerimage, #topbannerimage
+{
+	height: 200px;
+}
+
+.topbannerimgcontainer
+{
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.display_image_1_section
+{
+	font-style: italic;
+	box-shadow: 0px 0px 2px gray;
+	border: 3px solid rgb(220,220,220);
+}
+
+.display_image_1_section
+{
+	text-align: center;
+	width: 600px;
+	text-shadow: 2px 2px 2px grey;
+	margin-left: auto;
+	margin-right: auto;
+	height: 450px;
+	max-height: 450px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.display_image_1_section
+{
+	font-size: 24px;
+}
+
+.special_text
+{
+}
+
+.display_image_1_section_img
+{
+	max-height: 450px;
+	max-width: 600px;
+}
+
+
+.menutitlelogo
+{
+	margin-left: 10px;
+	background: linear-gradient(to right, #27798c, mistyrose);
+	border-radius: 50px;
+	width: 30px;
+	max-width: 100%;
+	max-height: 100%;
+	height: 30px;
+	float: left;
+}
+
+.menutitletext
+{
+	float: right;
+	float: left;
+}
+
+.sectiontitle
+{
+	background-color: aliceblue;
+	border-top: 3px solid rgb(7, 71, 166);
+	text-align: center;
+	font-size: 38px;
+	padding: 10px;
+	margin: 30px;
+	color: rgb(7, 71, 166);
+}
+
+.generic_centered_div
+{
+	font-style: italic;
+	box-shadow: 0px 0px 2px gray;
+	border: 3px solid rgb(220,220,220);
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.generic_centered_div_no_deco
+{
+	font-style: italic;
+	text-align: center;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.img_donation
+{
+	object-fit: contain;
+}
+
+.body_button, .cookie_button, #body_button
+{
+	background-color: inherit;
+}
+
+.body_button_large
+{
+	margin-bottom: 20px;
+	height: 210px;
+	background: white;
+	color: black;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.cookie_button
+{
+	margin-right: 5px;
+}
+
+.body_button:disabled
+{
+	background-color: rgb(150, 150, 150);
+}
+
+.home_panel_button_label
+{
+	text-shadow: 0px 0px 5px black;
+	color: white;
+	position: absolute;
+	transform: translate(-50%, -400%);
+	font-size: 24px;
+}
+
+.home_panel_div
+{
+	height: 250px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.home_panel_button_img
+{
+	image-rendering: optimizespeed;
+	transition: inherit;
+	height: 200px;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.home_panel_button_img:hover
+{
+	box-shadow: 0px 0px 5px gray;
+}
+
+.cookies_background
+{
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(8, 8, 8, 0.95);
+}
+
+.cookies
+{
+	background-color: white;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 2px gray;
+    padding: 20px;
+    border-radius: 5px;
+	margin-top: 2%;
+}
+
+.cookies_learn
+{
+	color: rgb(7, 71, 166);
+}
+
+.legal_label
+{
+	font-size: 10px;
+	font-style: normal;
+	text-align: left;
+	text-shadow: none;
+}
+
+.legal_accept
+{
+	font-style: normal;
+	text-shadow: none;
+}
+
+.ribbon
+{
+	background-color: #18354f;
+	height: 80px;
+}
+
+.ribbon_button
+{
+	border-bottom: 2px solid #18354f;
+	float: right;
+}
+
+.ribbon_button:hover
+{
+	border-bottom: 2px solid white;
+}
+
+.execute_area
+{
+	height: 43%;
+}
+
+.result_area, .execute_area
+{
+	width: 100%;
+	background-color: #313131;
+	border: 0px solid rgb(41, 112, 217);
+	border-left: 2px solid #18354f;
+	color: white;
+	font-size: 16px;
+	transition: .1s linear all;
+}
+
+.result_area
+{
+	height: 40%;
+}
+
+.result_area:hover, .execute_area:hover
+{
+	border-left: 2px solid rgb(41, 112, 217);
+	background-color: #3c3c3c;
+}
+
+.port_textbox, .ip_textbox
+{
+	height: 80px;
+	background-color: inherit;
+	color: white;
+	float: left;
+}
+
+.port_textbox:hover, .ip_textbox:hover
+{
+	color: white;
+}
+
+.connection_ribbon
+{
+	width: 40%;
+}

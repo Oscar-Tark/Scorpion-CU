@@ -1,0 +1,128 @@
+.section
+{
+	transition: .1s linear all;
+	width: 100%;
+}
+
+/* Centered text */
+.centered_text
+{
+  position: relative;
+  padding: 10px;
+  /*bottom: 70px;
+  left: 50%;*/
+  transform: translate(0%, -100%);
+  background-color: rgba(240,240,240,0.7);
+}
+
+img
+{
+	/*max-width:100%;
+	max-height:100%;
+	width: 100%;*/
+	object-fit: cover;
+    width: 100%;
+    height: 100%;
+    image-rendering: inherit;
+	animation: .2s fade_in;
+}
+
+body
+{
+    image-rendering: auto;
+	transition: .1s linear all;
+	animation: .2s fade_in;
+}
+
+button {
+  height: 100%;
+  color: rgb(240,240,240);
+  border: 0px solid rgb(7, 71, 166);
+  background-color: inherit;
+  transition: .1s linear all;
+  font-size: 16px;
+  position: relative;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+button:after {
+  content: "";
+  background: rgb(57, 131, 197);
+  display: block;
+  position: absolute;
+  padding-left: 350%;
+  margin-left: -20px;
+  /*margin-top: -120%;*/
+  height: 2px;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+input[type="text"]
+{
+	width: 40%;
+	border: 0px solid rgb(230,230,230);
+	border-bottom: 0px solid white;
+	font-size: 11px;
+	padding: 5px;
+	transition: .1s linear all;
+}
+
+input[type="text"]:hover, input[type="text"]:focus
+{
+	font-size: 16px;
+	border-bottom: 2px solid white;
+}
+
+textarea
+{
+	resize: none;
+}
+
+@keyframes fade_in {
+    from {
+      opacity: 0.0; }
+    to {
+      opacity: 1.0; } }
+      
+      @keyframes fade_in_control {
+        from {
+          opacity: 0.0; }
+        to {
+          opacity: 1.0; } }
+      
+  @keyframes fade_out {
+    from {
+      opacity: 1; }
+    to {
+      opacity: 0.8; } }
+  
+      @keyframes fade_out_all {
+        from {
+          opacity: 1; }
+        to {
+          opacity: 0; } }
+
+@keyframes input_back_orig {
+    from {
+      background-color: rgba(0, 93, 106, 0.7); }
+    to {
+      background-color: rgba(0, 63, 86, 0.7); } }
+
+
+@keyframes cal_drop {
+  from {
+    background-color: rgb(234, 191, 0); }
+  to {
+    background-color: rgb(255, 255, 255); } }

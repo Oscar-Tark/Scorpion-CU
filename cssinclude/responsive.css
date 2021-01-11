@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1100px) {
+	.topbanner
+	{
+		height: 100px;
+		width: 100%;
+		display: none;
+	}
+
+	.menu
+	{
+		text-align: center;
+		height: auto;
+	}
+	
+	.menuitems
+	{
+		background-color: black;
+		padding: 10px;
+		float: none;
+	}
+	
+	.menutitle
+	{
+		font-size: 62px;
+		float: none;
+		height: auto;
+		margin-bottom: 30px;
+	}
+	
+	.mainsummarytext
+	{
+		width: 100%;
+	}
+	
+	.menutitlelogo
+	{
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 100px;
+		width: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+	
+	.body_button_large
+	{
+		height: 410px;
+		margin-left: 0px;
+	}
+	
+	.home_panel_button_img
+	{
+		height: 410px;
+	}
+	
+	.home_panel_button_label
+	{
+		font-size: 56px;
+	}
+	
+	.home_panel_div
+	{
+		width: auto;
+	}
+	
+	.mainsummarytext
+	{
+		font-size: 32px;
+	}
+	
+	.menutitletext
+	{
+		float: none;
+	}
+	
+	.sectiontitle
+	{
+		font-size: 52px;
+	}
+	
+	.submenu
+	{
+		display: none;
+	}
+	
+	.bottombanner
+	{
+		height: 60px;
+	}
+	
+	.bottombannerbutton
+	{
+		font-size: 30px;
+	}
+	
+	.generic_centered_div
+	{
+		box-shadow: none;
+		border: 0px solid white;
+		width: 100%;
+		font-size: 36px;
+		font-style: normal;
+		margin-top: 90px;
+	}
+	
+	.legal_label
+	{
+		font-size: 24px;
+	}
+}
